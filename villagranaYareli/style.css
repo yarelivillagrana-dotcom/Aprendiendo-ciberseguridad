@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(236, 206, 241);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0
+    line-height: 1.6;
+
+}
+header{
+    background-color: rgb(233, 11, 133);
+    color: white;
+    text-align: center;
+    peadding: 30px 20px
+    border-bottom: 3px solid rgb(233,11,133);
+}
+header .logo{
+    max-width: 100px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header p { 
+    color: rgb(2, 2, 2);   
+    font-style: normal;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main section {
+    background-color: rgb(238, 151, 235);
+    padding: 25px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border-left: 5px solid rgb(255, 255, 255);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0,7);
+    overflow: hidden;
+}
+
+main section h2 {
+    color: rgb(10, 10, 10);
+    margin-top: 0;
+    border-bottom: 1px solid rgba(166, 0, 199, 0.333);
+    padding-bottom: 10px;
+}
+
+main section img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+#carouselExample {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+footer ol {
+    list-style-type: none;
+    color: saddlebrown;
+    padding-left: 20px;
+}
+
+footer ol li {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(245, 208, 159);
+    color: black;
+    front-size: 0.9rem;
+    border-top: 1px solid #333;
+    margin-top: 50px;
+}
